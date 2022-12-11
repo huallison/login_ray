@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(208, 208, 208);
+}
+
+.tela{
+    background-image: radial-gradient(red, rgb(184, 66, 184), rgb(125, 14, 150));
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    
+}
+
+h1{
+    color: rgb(241, 241, 241);
+    font-size: 40px;
+    margin-top: 0px;
+    font-family: 'Playfair Display', serif;
+}
+
+a{
+    margin: 5px;
+    color: rgb(237, 237, 237);
+    text-decoration: none;
+    
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+}
+img{
+    width: 230px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+input{
+    height: 20px;
+    width: 200px;
+}
+
+button{
+    width: 90px;
+    height: 30px;
+    font-weight: 800;
+}
+
+.oo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+
+    .tela{
+        width: 360px;
+        height: 500px;
+        border-radius: 30px;
+        
+    }
+
+}
